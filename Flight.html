@@ -4,73 +4,81 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>repl.it</title>
-  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="flight.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+
 </head>
 <body>
-<script charset="utf-8" type="text/javascript">
-    window.TP_FORM_SETTINGS = window.TP_FORM_SETTINGS || {};
-    window.TP_FORM_SETTINGS["ec08ae18634f935e74ba4d71466d779b"] = {
-	"handle": "ec08ae18634f935e74ba4d71466d779b",
-	"widget_name": "Flight",
-	"border_radius": "2",
-	"additional_marker": null,
-	"width": null,
-	"show_logo": false,
-	"show_hotels": true,
-	"form_type": "avia",
-	"locale": "en",
-	"currency": "usd",
-	"sizes": "default",
-	"search_target": "_blank",
-	"active_tab": "avia",
-	"search_host": "jetradar.com",
-	"hotels_host": "search.hotellook.com",
-	"hotel": "",
-	"hotel_alt": "Search hotels with Hotellook and book hotels online",
-	"avia_alt": null,
-	"retargeting": true,
-	"trip_class": "economy",
-	"depart_date": null,
-	"return_date": null,
-	"check_in_date": null,
-	"check_out_date": null,
-	"no_track": false,
-	"id": 150200,
-	"marker": 182971,
-	"origin": {
-		"name": ""
-	},
-	"destination": {
-		"name": ""
-	},
-	"color_scheme": {
-		"name": "custom",
-		"icons": "icons_black",
-		"background": "#00b0dd",
-		"color": "#ffffff",
-		"border_color": "#007897",
-		"button": "#ffffff",
-		"button_text_color": "#444444",
-		"input_border": "#007897"
-	},
-	"hotels_type": "hotellook_host",
-	"best_offer": {
+	<div>
+		<h3 style="text-align: center">Find your flight at the lowest price...</h3>
+		<img src="./flight2.jpeg" alt="Airplane wing">
+	</div>
+	<br />
+	<script charset="utf-8" type="text/javascript">
+		window.TP_FORM_SETTINGS = window.TP_FORM_SETTINGS || {};
+		window.TP_FORM_SETTINGS["ec08ae18634f935e74ba4d71466d779b"] = {
+		"handle": "ec08ae18634f935e74ba4d71466d779b",
+		"widget_name": "Flight",
+		"border_radius": "2",
+		"additional_marker": null,
+		"width": 800,
+		"show_logo": false,
+		"show_hotels": false,
+		"form_type": "avia",
 		"locale": "en",
 		"currency": "usd",
-		"marker": 182971,
+		"sizes": "default",
+		"search_target": "_blank",
+		"active_tab": "avia",
 		"search_host": "jetradar.com",
-		"offers_switch": false,
-		"api_url": "//minprices-jetradar.aviasales.ru/minimal_prices/offers.json",
-		"routes": []
-	},
-	"hotel_logo_host": null,
-	"search_logo_host": "jetradar.com",
-	"hotel_marker_format": null,
-	"hotelscombined_marker": null,
-	"responsive": true,
-	"height": 224
-};
-</script>
-<script charset="utf-8" src="//www.travelpayouts.com/widgets/ec08ae18634f935e74ba4d71466d779b.js?v=1417" async></script>
+		"hotels_host": "search.hotellook.com",
+		"hotel": "",
+		"hotel_alt": "Hotellook helps you find the best accomodation prices online.",
+		"avia_alt": "",
+		"retargeting": true,
+		"trip_class": "economy",
+		"depart_date": null,
+		"return_date": null,
+		"check_in_date": null,
+		"check_out_date": null,
+		"no_track": false,
+		"id": 150200,
+		"marker": 182971,
+		"origin": {
+			"name": ""
+		},
+		"destination": {
+			"name": ""
+		},
+		"color_scheme": {
+			"name": "blue",
+			"icons": "icons_white",
+			"background": "#00b0dd",
+			"color": "#ffffff",
+			"border_color": "#007897",
+			"button": "#ffffff",
+			"button_text_color": "#444444",
+			"input_border": "#007897"
+		},
+		"hotels_type": "hotellook_host",
+		"best_offer": {
+			"locale": "en",
+			"currency": "usd",
+			"marker": 182971,
+			"search_host": "jetradar.com",
+			"offers_switch": false,
+			"api_url": "//minprices-jetradar.aviasales.ru/minimal_prices/offers.json",
+			"routes": []
+		},
+		"hotel_logo_host": null,
+		"search_logo_host": "jetradar.com",
+		"hotel_marker_format": null,
+		"hotelscombined_marker": null,
+		"responsive": false,
+		"height": 152
+	};
+	</script>
+	<script charset="utf-8" src="//www.travelpayouts.com/widgets/ec08ae18634f935e74ba4d71466d779b.js?v=1419" async></script>
+	
 </body>
 </html>
